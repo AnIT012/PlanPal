@@ -9,7 +9,7 @@ function d(day: number, sH: number, sM: number, eH: number, eM: number) {
 }
 
 export const defaultCalendarSources: CalendarSource[] = [
-  { id: "cal-1", name: "しょすけ", color: "#4F46E5", visible: true },
+  { id: "cal-1", name: "自分", color: "#4F46E5", visible: true },
   { id: "cal-2", name: "Family", color: "#059669", visible: true },
   { id: "cal-3", name: "Sho Personal", color: "#D97706", visible: true },
   { id: "cal-4", name: "Sho Rits", color: "#2563EB", visible: true },
