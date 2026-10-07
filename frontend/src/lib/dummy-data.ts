@@ -36,7 +36,7 @@ export const dummyEvents: ScheduleEvent[] = [
   {
     id: "2", title: "ランチ @ イタリアン", ...d(5, 12, 0, 13, 30),
     location: "トラットリア", category: "food",
-    participants: [{ id: "p2", name: "あや" }],
+    participants: [{ id: "p2", name: "Aさん" }],
     rating: "circle", comment: "パスタが美味しかった", calendarId: "cal-3",
   },
   {
@@ -47,7 +47,7 @@ export const dummyEvents: ScheduleEvent[] = [
   {
     id: "4", title: "映画 デート", ...d(10, 14, 0, 16, 30),
     location: "TOHOシネマズ", category: "entertainment",
-    participants: [{ id: "p2", name: "あや" }],
+    participants: [{ id: "p2", name: "Aさん" }],
     rating: null, calendarId: "cal-3",
   },
   {
@@ -72,9 +72,9 @@ export const dummyEvents: ScheduleEvent[] = [
     category: "work", participants: [], rating: null, calendarId: "cal-1",
   },
   {
-    id: "9", title: "あやと カフェ", ...d(20, 15, 0, 17, 0),
+    id: "9", title: "友だちと カフェ", ...d(20, 15, 0, 17, 0),
     location: "スターバックス", category: "food",
-    participants: [{ id: "p2", name: "あや" }],
+    participants: [{ id: "p2", name: "Aさん" }],
     rating: "circle", comment: "新作フラペチーノ良かった", calendarId: "cal-3",
   },
   {
